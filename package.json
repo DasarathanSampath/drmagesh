@@ -1,0 +1,23 @@
+{
+  "name": "drmagesh",
+  "version": "0.0.1",
+  "description": "Cardioligist Kanchipuram",
+  "main": "index.js",
+  "authors": {
+    "name": "Dasarathan Sampath",
+    "email": "dasarathan.sampath@gmail.com"
+  },
+  "repository": "/drmagesh",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.0.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
