@@ -1,0 +1,18 @@
+{
+    "list":{
+        "/":{
+          "lang": "en-US",
+          "lncode": "en",
+          "lnname": "English",
+          "title": "Dr V Magesh",
+          "description": "Heart specialist Cardioligist Kanchipuram"
+        },
+        "/ta/":{
+          "lang": "ta-IN",
+          "lncode": "ta",
+          "lnname": "தமிழ்",
+          "title": "மருத்துவர் வி. மகேஷ்",
+          "description": "இதய நிபுணர் கார்டியோலிஜிஸ்ட் காஞ்சிபுரம்"
+        }
+    }
+}

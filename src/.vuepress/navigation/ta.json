@@ -1,0 +1,28 @@
+{
+    "list": {
+        "selectText": "மொழிகள்",
+        "label": "தமிழ்",
+        "serviceWorker": {
+          "updatePopup": {
+            "message": "புதிய உள்ளடக்கம் சேர்க்கப்பட்டுள்ளது.",
+            "buttonText": "புதுப்பிக்கவும்"
+          }
+        },
+        "algolia": {},
+        "repo": "",
+        "editLinks": false,
+        "docsDir": "",
+        "editLinkText": "",
+        "lastUpdated": false,
+        "location": "காஞ்சிபுரம்",
+        "nav": [
+          {
+            "text": "தகவல் பாதுகாப்பு",
+            "link": "/ta/privacy/"
+          }
+        ],
+        "sidebar": {
+
+        }       
+    }
+}

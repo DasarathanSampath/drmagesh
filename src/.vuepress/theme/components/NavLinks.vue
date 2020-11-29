@@ -135,6 +135,7 @@ export default {
     display inline-block
     margin-left 1.5rem
     line-height 2rem
+    // font-size 1.1rem
     &:first-child
       margin-left 0
   .repo-link

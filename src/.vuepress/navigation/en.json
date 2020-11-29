@@ -1,0 +1,28 @@
+{
+    "list":{
+            "selectText": "Languages",
+            "label": "English",
+            "ariaLabel": "Languages",
+            "serviceWorker": {
+              "updatePopup": {
+                "message": "New content is available.",
+                "buttonText": "Refresh"
+              }
+            },
+            "algolia": {},
+            "repo": "",
+            "editLinks": false,
+            "docsDir": "",
+            "editLinkText": "",
+            "lastUpdated": false,
+            "location": "Kanchipuram",
+            "nav": [
+              {
+                "text": "Privacy",
+                "link": "/privacy/"
+              }
+            ],
+            "sidebar": {
+            }
+        }
+}

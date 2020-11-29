@@ -137,7 +137,7 @@ export default {
   cursor pointer
   .dropdown-title
     display block
-    font-size 0.9rem
+    // font-size 1.1rem
     font-family inherit
     cursor inherit
     padding inherit
