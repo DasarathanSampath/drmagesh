@@ -3,7 +3,7 @@
     <img class="name-card-img" src="/card-img.png" alt="">
     <div class="name-card-caption">
         <p class="name-card-head">
-          Dr. V Magesh
+          {{$frontmatter.title}}
         </p>      
       <div class="name-card-txt">
         MBBBS Stanley, MD Stanley,

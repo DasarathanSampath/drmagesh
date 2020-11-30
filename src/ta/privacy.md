@@ -1,6 +1,6 @@
 ---
 date: 21-Nov-2020
-id: home
+id: privacy
 title: தகவல் பாதுகாப்பு
 description: வலைத்தளத்தின் தகவல் பாதுகாப்பு
 articleLang: 'en-US'

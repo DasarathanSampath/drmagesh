@@ -1,6 +1,6 @@
 <template>
     <figure class="appointment">
-        <h3> Appointment </h3>
+        <h3> {{$frontmatter.appointment}} </h3>
         <span >            
             <h3 style="color: brown; font-weight: bold;"> 
                 <i class="fa fa-phone fa-2x" aria-hidden="true" style="color: black;"></i> 
