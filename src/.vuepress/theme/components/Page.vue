@@ -8,7 +8,7 @@
         </a>
       </div>
 
-    <Content class="theme-default-content" style="margin-top: -60px;" />
+    <Content class="theme-default-content" style="margin-top: -60px;"/>
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />

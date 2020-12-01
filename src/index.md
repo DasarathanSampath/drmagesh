@@ -4,7 +4,23 @@ id: home
 title: Dr V Magesh MBBS, MD, Surgen
 qualification: MBBBS Stanley, MD Stanley, DS Stanley, 10 Yrs Practice
 description: Cardioligist, ECG, Echo, Heart Specialist in Kanchipuram
-appointment: நியமனம்
+appointment: Appointment
+about: About
+articles: Articles
+presentations: Presentations
+formTitle: Contact
+formName: Name
+formEmail: e-mail
+formMessage: Message
+formSend: Send
+articleName1: Article 1
+articleText1: Some text for article 1
+articleName2: Article 2
+articleText2: Some text for article 2
+presentationName1: Presentation-1
+presentationText1: Some text for presentation 1
+presentationName2: Presentation-2
+presentationText2: Some text for presentation 2
 articleLang: 'en-US'
 altLang: true
 head1: About

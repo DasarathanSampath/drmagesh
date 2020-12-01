@@ -33,7 +33,7 @@
     >
       <a href="https://goo.gl/maps/h4ef7MJweK58NsYm8" target="_blank"> 
         <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <i style="padding-right:1.2em;">{{$themeLocaleConfig.location}}</i>
+        <i class="location">{{$themeLocaleConfig.location}}</i>
       </a>
       <AlgoliaSearchBox
         v-if="isAlgoliaSearch"
@@ -147,8 +147,9 @@ $navbar-horizontal-padding = 1.5rem
       white-space nowrap
       text-overflow ellipsis
 .location
-    position relative
-    display inline-block
-    margin-left 1.5rem
-    line-height 2rem
+    margin-right 1.2rem
+
+@media (max-width: $MQMobileNarrow)
+  .location
+    display none
 </style>

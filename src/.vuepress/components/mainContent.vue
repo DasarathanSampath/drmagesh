@@ -6,7 +6,7 @@
         v-bind:class="['tab-button', { active: currentTab === tab }]"
         v-on:click="currentTab = tab"
       >
-        {{ tab }}
+        {{ $frontmatter[tab.toLowerCase()] }}
       </button>
 
       <component v-bind:is="currentTabComponent" class="tab"></component>
@@ -27,6 +27,7 @@ export default {
         return{
             currentTab: "About",
             tabs: ["About", "Articles", "Presentations"]
+            // tabs: [this.$frontmatter.about, this.$frontmatter.articles, this.$frontmatter.presentations]
         }
     },
     computed: {

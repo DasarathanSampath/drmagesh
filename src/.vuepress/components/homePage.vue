@@ -9,15 +9,17 @@
             </div>
             <div class="middle-column">
               <div class="slideShow">
-                <SlideShow />
+                <component v-if="dynamicComponent" :is="dynamicComponent"></component>
               </div>
               <MainContent />
                
             </div>
             
             <div class="right-column">
-                This information is related to user activities while surfing 
-                information on internet and can be captured using some analytics codes, cookies etc.
+                <ContactForm />
+                <div style="padding: 1rem 0.25rem 0.25rem 0.25rem; float: center;">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.139138472408!2d79.70174971482052!3d12.834284190946041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52c30b907f94a7%3A0x9489e0ebdcf4c815!2sDr%20V.%20Magesh%20DM%20Cardio%20Om%20Shanthi%20Heart%20Care%20Centre!5e0!3m2!1sen!2sin!4v1606737468287!5m2!1sen!2sin" frameborder="5px" style="border:2px; width:100%; border: 2px solid #555" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
             </div>
         </div>
 </template>
@@ -27,26 +29,33 @@
 import NameCard from './nameCard'
 import TheAccordion from './theAccordion'
 import ForAppointment from './forAppointment'
-import SlideShow from './slideShow'
+// import SlideShow from './slideShow'
 import MainContent from './mainContent'
+import ContactForm from './contactForm'
 
 // Json Date
-import theTimings from '../jsons/timings.json'
+import theTimingsEn from '../jsons/en-US/timings.json'
+import theTimingsTa from '../jsons/ta-IN/timings.json'
 
 export default {    
     components:{
-        NameCard, TheAccordion, ForAppointment, SlideShow, MainContent
+        NameCard, TheAccordion, ForAppointment, MainContent, ContactForm
     },
     data () {
       return {
-        theTimings: theTimings[this.languageText]
+        dynamicComponent: null
       }
     },
     computed:{
-      languageText(){
-        return this.$lang
+      theTimings(){
+        return this.$lang === "en-US" ? theTimingsEn : theTimingsTa
       }
-    }
+    },
+    mounted () {
+    import('./slideShow').then(module => {
+      this.dynamicComponent = module.default
+    })
+  }
     
 }
 </script>
@@ -68,14 +77,16 @@ export default {
   float left
   width 50%
   padding 0 1% 0 1%
+  
 
 .right-column 
   float left
   width 18%
 
 @media screen and (max-width $MQNarrow) {
-  .left-column, .right-column .middle-column{
+  .left-column, .right-column, .middle-column{
     width 100%
+    padding 0
   }
 }
 

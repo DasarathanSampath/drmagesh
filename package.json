@@ -18,8 +18,13 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
+    "emailjs-com": "^2.6.4",
+    "firebase": "^8.1.1",
+    "firebase-tools": "^8.16.2",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
-    "vue-carousel": "^0.18.0"
+    "vue-carousel": "^0.18.0",
+    "vue-template-compiler": "^2.6.12",
+    "vuepress-plugin-clean-urls": "^1.1.2"
   }
 }

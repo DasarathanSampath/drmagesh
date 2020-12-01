@@ -4,7 +4,23 @@ id: home
 title: மருத்துவர் வி. மகேஷ்
 description: இதய நிபுணர் கார்டியோலிஜிஸ்ட் காஞ்சிபுரம்
 qualification: எம்பிபிபிஎஸ் ஸ்டான்லி, எம்.டி ஸ்டான்லி, டி.எஸ். ஸ்டான்லி, 10 ஆண்டு பயிற்சி
-appointment: Appointment
+appointment: நியமனம் பெறுவதற்கு
+about: என்னை பற்றி
+articles: கட்டுரைகள்
+presentations: விளக்கக்காட்சிகள்
+formTitle: தொடர்புக்கு
+formName: பெயர்
+formEmail: மின்னஞ்சல்
+formMessage: செய்தி
+formSend: அனுப்பு
+articleName1: கட்டுரை-1
+articleText1: கட்டுரைக்கான சில உரை 1
+articleName2: கட்டுரை-2
+articleText2: கட்டுரைக்கான சில உரை 2
+presentationName1: விளக்கக்காட்சி-1
+presentationText1: விளக்கக்காட்சிக்கான சில உரை 1
+presentationName2: விளக்கக்காட்சி-2
+presentationText2: விளக்கக்காட்சிக்கான சில உரை 2
 articleLang: 'en-US'
 altLang: true
 head1: என்னை பற்றி

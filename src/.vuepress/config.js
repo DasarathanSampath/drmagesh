@@ -25,11 +25,16 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    ['clean-urls', {
+      normalSuffix: '/',
+      indexSuffix: '/'
+    }]
   ],
-  postcss: {
-    plugins: [
-      require("tailwindcss")("./tailwind.config.js"),
-      require("autoprefixer"),
-    ],
+  configureWebpack: {
+    resolve: {
+      alias: {
+        'vue$': 'vue/dist/vue.esm.js'
+      }
+    }
   }
 }

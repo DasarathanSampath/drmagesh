@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import VueCarousel from 'vue-carousel'
+// import VueCarousel from 'vue-carousel'
 
-Vue.use(VueCarousel)
+// Vue.use(VueCarousel)
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app

@@ -6,8 +6,7 @@
           {{$frontmatter.title}}
         </p>      
       <div class="name-card-txt">
-        MBBBS Stanley, MD Stanley,
-        DS Stanley, 10 Yrs Practice        
+        {{$frontmatter.qualification}}       
       </div>
     </div>
   </div>
@@ -23,6 +22,8 @@
 
 .name-card-img
   border-radius 50%
+  width 74%
+  padding 2% 13% 0 13%
 
 .name-card-caption
   padding 0.2rem 0.2rem 0.2rem 0.2rem
