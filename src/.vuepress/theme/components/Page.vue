@@ -7,7 +7,7 @@
             {{alternateLang}}
         </a>
       </div>
-
+    
     <Content class="theme-default-content" style="margin-top: -60px;"/>
     <PageEdit />
 
