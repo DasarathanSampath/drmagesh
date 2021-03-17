@@ -8,6 +8,12 @@
       <div class="name-card-txt">
         {{$frontmatter.qualification}}       
       </div>
+      <p class="name-card-head">
+          {{$frontmatter.address}}
+        </p>  
+      <p style="line-height:0.6rem"> No.28, 29, Kamarajar Street, </p>
+      <p style="line-height:0.6rem"> Kanchipuram - 631502 </p>
+      <p style="line-height:0.6rem"> Near - NAC Jewellery </p>
     </div>
   </div>
 </template>

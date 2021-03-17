@@ -2,16 +2,19 @@
     <div>
         <carousel :autoplay=true :autoplayHoverPause=true :perPage=1>
             <slide>
-                <img src="/slider/1.jpg" alt>
+                <img src="/slider/one.jpg" alt>
             </slide>
             <slide>
-                <img src="/slider/2.jpg" alt>
+                <img src="/slider/two.jpg" alt>
             </slide>
             <slide>
-                <img src="/slider/3.jpg" alt>
+                <img src="/slider/three.jpg" alt>
             </slide>
             <slide>
-                <img src="/slider/4.jpg" alt>
+                <img src="/slider/four.jpg" alt>
+            </slide>
+            <slide>
+                <img src="/slider/five.jpg" alt>
             </slide>
         </carousel>
     </div>

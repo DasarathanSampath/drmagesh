@@ -1,35 +1,27 @@
 {   
     "ohmShanthi":{
-        "name": "Ohm Shanthi",
+        "name": "Kanchipuram Clinic",
         "timings": {
-            "day1": "Mon    10am - 12am",
-            "day2": "Tue    10am - 12am",
-            "day3": "Wed    10am - 12am",
-            "day4": "Thu    10am - 12am",
-            "day5": "Fri    10am - 12am",
-            "day6": "Sat    10am - 12am"
+            "day1": "Mon    7:30am - 9pm",
+            "day2": "Tue    7:30am - 9pm",
+            "day3": "Wed    7:30am - 9pm",
+            "day4": "Thu    7:30am - 9pm",
+            "day5": "Fri    7:30am - 9pm",
+            "day6": "Sat    7:30am - 9pm"
         }
     },
     "meenakshiHospitak":{
-        "name": "Meenakshi Hospital",
+        "name": "Meenakshi Medical College, Associate Professor",
         "timings": {
-            "day1": "Mon    2pm - 4pm",
-            "day2": "Tue    2pm - 4pm",
-            "day3": "Wed    2pm - 4pm",
-            "day4": "Thu    2pm - 4pm",
-            "day5": "Fri    2pm - 4pm",
-            "day6": "Sat    2pm - 4pm"
+            "day1": "Tue    10am - 12pm",
+            "day2": "Thu    10am - 12pm",
+            "day3": "Fri    10am - 12pm"
         }
     },
     "ABCHospitak":{
-        "name": "ABC Hospital",
+        "name": "Narbhavi Hospital",
         "timings": {
-            "day1": "Mon    7pm - 9pm",
-            "day2": "Tue    7pm - 9pm",
-            "day3": "Wed    7pm - 9pm",
-            "day4": "Thu    7pm - 9pm",
-            "day5": "Fri    7pm - 9pm",
-            "day6": "Sat    7pm - 9pm"
+            "day1": "by Appointment"
         }
     }
 }

@@ -1,9 +1,10 @@
 ---
 date: 21-Nov-2020
 id: home
-title: Dr V Magesh MBBS, MD, Surgen
-qualification: MBBBS Stanley, MD Stanley, DS Stanley, 10 Yrs Practice
-description: Cardioligist, ECG, Echo, Heart Specialist in Kanchipuram
+title: Dr V Magesh MBBS, MD, DM Cardio
+qualification: MBBS Stanley, MD Stanley, DM Stanley, 16 Yrs Practice
+address: Om Shanthi Heart Care Centre
+description: Cardioligist, Cardiothoracic Surgeons, Interventional Cardiologists, Echocardiologists, ECG Testing Labs, Echo, Heart Specialist, Heart Failure Specialists, Tread mill, Angiogram, Cardiac Surgeon Doctors
 appointment: Appointment
 about: About
 articles: Articles
@@ -24,7 +25,7 @@ presentationText2: Some text for presentation 2
 articleLang: 'en-US'
 altLang: true
 head1: About
-content1: Dr. Y Vijaya Chandra Reddy, a British Commonwealth Scholar in Interventional Cardiology, is currently operating full-time as Senior Consultant & Interventional Cardiologist at Apollo Main Hospitals, Chennai, since March 2009. Prior to this, Dr. Reddy served in a similar role at the Vijaya Heart Foundation, Vijaya Hospital, for 12 years. Dr. Reddy is versatile in several interventional techniques on coronaries, peripheral arteries like carotids, subclavians, renals, iliacs, femorals, infratibials, etc. He regularly perform all varieties of pacemaker implantations, CRTs, ICDs, paediatric interventions such as PDA coils, ASD device closure, PTMC and other valvuloplasties, and endovascular repairs. He has pioneered the rotatory method of “only anterior” puncture technique (modified Seldinger technique) for radial cannulation. Passionate about sharing his vast knowledge and experience, Dr. Reddy is a frequent speaker at seminars and conferences as well as academic programmes and lectures. He has published and presented innumerable research papers and studies over the years. Dr. Reddy has had a distinguished academic past, routinely finishing at the top of the class all through his years as a medical student. For the future, he desires to establish a systematic teaching structure for cardiology trainees in India, and will also work towards promoting cross-border knowledge transfer in the field of cardiology. He also wishes to make “Primary angioplasty for acute MI” popular and widely performed in India.
+content1: Dr Magesh V,  is Consultant Interventional  Cardiologist  and Associate Professor of Cardiology at Meenakshi Medical College, Kanchipuram. He is also running  Cardiology  service at  Om shanthi Heart  Care centre,  Kanchipuram. He has completed his school education from  Pachaiyappas Higher Secondary School Kanchipuram with securing District First in SSLC exams held  in the year 1996. He has graduated MBBS from Govt Stanley Medical College chennai in the year 2004. Then he did his Masters MD General Medicine at Madras Medical College& Govt General Hospital  in the year 2009. He also did Fellowship in Diabetes from Christian Medical College  vellore. Then He successfully  completed Super Speciality  DM Cardiology Post graduation training from Govt Stanley Medical College chennai in the year 2015. then he underwent Special traing for Interventional Cardiology traing for Cardiac Cathetarization  and Coronary Angiograplasty and structural interventions. Apart from  Medical Career, he has keen interest in Spreading Scientific Medical information,  Health education, Child Education  and Social welfare.
 ---
 <homePage/>
 
