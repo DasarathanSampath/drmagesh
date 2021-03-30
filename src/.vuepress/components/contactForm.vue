@@ -1,22 +1,22 @@
 <template>
     <div class="container">
-        <h3> {{$frontmatter.formTitle}} </h3>
+        <h3> {{nameCards.formTitle}} </h3>
         <form>
-          <label>{{$frontmatter.formName}}</label>
+          <label>{{nameCards.formName}}</label>
           <input 
             type="text" 
             v-model="name"
             name="name"
             placeholder="Your Name"
           >
-          <label>{{$frontmatter.formEmail}}</label>
+          <label>{{nameCards.formEmail}}</label>
           <input 
             type="email" 
             v-model="email"
             name="email"
             placeholder="Your Email"
             >
-          <label>{{$frontmatter.formMessage}}</label>
+          <label>{{nameCards.formMessage}}</label>
           <textarea 
             name="message"
             v-model="message"
@@ -24,7 +24,7 @@
             placeholder="Message">
           </textarea>
           
-          <input type="submit" :value="$frontmatter.formSend">
+          <input type="submit" :value="nameCards.formSend">
         </form>
     </div>
 </template>
@@ -40,6 +40,11 @@ export default {
       email: '',
       message: ''
     }
+  },
+  computed: {
+        nameCards(){
+            return this.$themeConfig.locales[this.$localePath].nameCards
+        }
   },
   methods: {
     /* sendEmail(e) {

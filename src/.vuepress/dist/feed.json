@@ -1,0 +1,23 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Dr V Magesgh",
+    "home_page_url": "https://drmagesh.com",
+    "feed_url": "https://drmagesh.com/feed.json",
+    "description": "Cardioligist Kanchipuram",
+    "items": [
+        {
+            "id": "https://drmagesh.com/articles/gamma-glutamyl-transferase/",
+            "url": "https://drmagesh.com/articles/gamma-glutamyl-transferase/",
+            "title": "A Study on Gamma Glutamyl transferase (GGT) in Non ST Elevation Acute Coronary Syndrome (NSTE-ACS) and its correlation with Angiographic severity and cardiac events",
+            "summary": "The purpose of this study is to investigate the diagnostic value of Gamma Glutamyl transferase (GGT) in Non ST Elevation Acute Coronary Syndrome (NSTE-ACS) and its correlation with Angiographic severity and cardiac events. Coronary Artery Disease which is one of the leading causes of mortality and morbidity all over the world, has reached epidemic proportions worldwide recently in both Developed as well as Developing Countries. Coronary artery disease causes approximately 9.4% of total deaths in less developed countries and 16.3% of all deaths in well developed countries. Non ST Elevation Acute Coronary Syndrome and",
+            "date_modified": "2020-11-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://drmagesh.com/articles/right-ventricular-myocardial-infarction/",
+            "url": "https://drmagesh.com/articles/right-ventricular-myocardial-infarction/",
+            "title": "A study of clinical manifestations of right ventricular myocardial infarction",
+            "summary": "Myocardial Infarction is the term used when the myocardium is necrosed due to ischemia. It may be trans mural or subendocardial. Inferior wall infarction has got some special features like the association with Right ventricular infarction and Brady arrhythmias especially sinus bradycardia and heart blocks. Clinically Right Ventricular Myocardial Infarction can be suspected",
+            "date_modified": "2020-11-21T00:00:00.000Z"
+        }
+    ]
+}

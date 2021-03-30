@@ -2,11 +2,11 @@
   <main class="page">
     <slot name="top" />
 
-      <div v-if="thisLang" class="langText">
+      <!--<div v-if="thisLang" class="langText">
         <a :href="altPath"> 
             {{alternateLang}}
         </a>
-      </div>
+      </div>-->
     
     <Content class="theme-default-content" style="margin-top: -60px;"/>
     <PageEdit />
@@ -50,7 +50,7 @@ export default {
   padding-bottom 2rem
   display block 
 .langText
-  padding 4em 0 0 1.5em 
+  padding 1rem 0 0 1.5em 
   font-weight 600 
   font-size 1.1rem 
   color #191970

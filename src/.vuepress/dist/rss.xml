@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Dr V Magesgh</title>
+        <link>https://drmagesh.com</link>
+        <description>Cardioligist Kanchipuram</description>
+        <lastBuildDate>Fri, 19 Mar 2021 04:47:34 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://drmagesh.com/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[A Study on Gamma Glutamyl transferase (GGT) in Non ST Elevation Acute Coronary Syndrome (NSTE-ACS) and its correlation with Angiographic severity and cardiac events]]></title>
+            <link>https://drmagesh.com/articles/gamma-glutamyl-transferase/</link>
+            <guid>https://drmagesh.com/articles/gamma-glutamyl-transferase/</guid>
+            <pubDate>Sat, 21 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[The purpose of this study is to investigate the diagnostic value of Gamma Glutamyl transferase (GGT) in Non ST Elevation Acute Coronary Syndrome (NSTE-ACS) and its correlation with Angiographic severity and cardiac events. Coronary Artery Disease which is one of the leading causes of mortality and morbidity all over the world, has reached epidemic proportions worldwide recently in both Developed as well as Developing Countries. Coronary artery disease causes approximately 9.4% of total deaths in less developed countries and 16.3% of all deaths in well developed countries. Non ST Elevation Acute Coronary Syndrome and]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A study of clinical manifestations of right ventricular myocardial infarction]]></title>
+            <link>https://drmagesh.com/articles/right-ventricular-myocardial-infarction/</link>
+            <guid>https://drmagesh.com/articles/right-ventricular-myocardial-infarction/</guid>
+            <pubDate>Sat, 21 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Myocardial Infarction is the term used when the myocardium is necrosed due to ischemia. It may be trans mural or subendocardial. Inferior wall infarction has got some special features like the association with Right ventricular infarction and Brady arrhythmias especially sinus bradycardia and heart blocks. Clinically Right Ventricular Myocardial Infarction can be suspected]]></description>
+        </item>
+    </channel>
+</rss>

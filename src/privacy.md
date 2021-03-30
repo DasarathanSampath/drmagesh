@@ -3,6 +3,7 @@ date: 21-Nov-2020
 id: privacy
 title: Privacy Policy
 description: Privacy Policy of the website
+isHome: false
 articleLang: 'en-US'
 altLang: true
 ---

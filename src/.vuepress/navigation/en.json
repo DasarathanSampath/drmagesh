@@ -23,6 +23,33 @@
               }
             ],
             "sidebar": {
+            },
+            "subNav": [
+              {
+                "text": "About",
+                "link": "/"
+              },
+              {
+                "text": "Articles",
+                "link": "/articles/"
+              }
+            ],
+            "nameCards": {
+                "cardTitle": "Dr V Magesh MBBS, MD, DM Cardio",
+                "qualification1": "MBBS, MD - General Medicine,", 
+                "qualification2": "DM - Cardiologist,",
+                "qualification3": "Practicing from 2004",
+                "address1": "Om Shanthi Heart Care Centre",
+                "address2": "No.28, 29, Kamarajar Street,",
+                "address3": "Kanchipuram - 631502",
+                "address4": "Near - NAC Jewellery",
+                "description": "Cardiologist, Cardiothoracic Surgeons, Interventional Cardiologists, Echocardiologists, ECG Testing Labs, Echo, Heart Specialist, Heart Failure Specialists, Tread mill, Angiogram, Cardiac Surgeon Doctors",
+                "appointment": "Appointment",
+                "formTitle": "Contact",
+                "formName": "Name",
+                "formEmail": "e-mail",
+                "formMessage": "Message",
+                "formSend": "Send"
             }
         }
 }

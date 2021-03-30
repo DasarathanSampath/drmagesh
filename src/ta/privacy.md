@@ -3,7 +3,8 @@ date: 21-Nov-2020
 id: privacy
 title: தகவல் பாதுகாப்பு
 description: வலைத்தளத்தின் தகவல் பாதுகாப்பு
-articleLang: 'en-US'
+isHome: false
+articleLang: 'ta-IN'
 altLang: true
 ---
 

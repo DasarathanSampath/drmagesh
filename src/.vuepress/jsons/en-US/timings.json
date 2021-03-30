@@ -2,12 +2,8 @@
     "ohmShanthi":{
         "name": "Kanchipuram Clinic",
         "timings": {
-            "day1": "Mon    7:30am - 9pm",
-            "day2": "Tue    7:30am - 9pm",
-            "day3": "Wed    7:30am - 9pm",
-            "day4": "Thu    7:30am - 9pm",
-            "day5": "Fri    7:30am - 9pm",
-            "day6": "Sat    7:30am - 9pm"
+            "day1": "Mon-Sat 7:30am - 9pm",
+            "day2": "by Appointment"
         }
     },
     "meenakshiHospitak":{
@@ -15,7 +11,8 @@
         "timings": {
             "day1": "Tue    10am - 12pm",
             "day2": "Thu    10am - 12pm",
-            "day3": "Fri    10am - 12pm"
+            "day3": "Fri    10am - 12pm",
+            "day4": "by Appointment"
         }
     },
     "ABCHospitak":{

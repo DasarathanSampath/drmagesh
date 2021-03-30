@@ -14,7 +14,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-feed": "^0.1.9"
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
@@ -25,6 +28,7 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "vue-carousel": "^0.18.0",
     "vue-template-compiler": "^2.6.12",
-    "vuepress-plugin-clean-urls": "^1.1.2"
+    "vuepress-plugin-clean-urls": "^1.1.2",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
