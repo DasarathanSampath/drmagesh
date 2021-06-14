@@ -20,6 +20,7 @@
     "vuepress-plugin-feed": "^0.1.9"
   },
   "dependencies": {
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "^7.13.12",
     "autoprefixer": "^9.8.6",
     "emailjs-com": "^2.6.4",
     "firebase": "^8.1.1",

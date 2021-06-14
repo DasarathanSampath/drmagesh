@@ -64,7 +64,7 @@
         </div>
     </div>
     
-    
+    <FirebaseDynamicComponent />
   </div>
 </template>
 
@@ -74,6 +74,7 @@ import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
+import FirebaseDynamicComponent from '@theme/components/FirebaseDynamicComponent.vue'
 
 // import HomePage from '../../components/homePage.vue'
 import SubNav from '@theme/components/subNav.vue'
@@ -95,7 +96,7 @@ export default {
     Sidebar,
     Navbar,
     SubNav,
-    NameCard, TheAccordion, ForAppointment, ContactForm
+    NameCard, TheAccordion, ForAppointment, ContactForm, FirebaseDynamicComponent
   },
 
   data () {

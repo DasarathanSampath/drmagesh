@@ -2,6 +2,7 @@ const { description } = require('../../package')
 const languagesList = require('./navigation/languageList')
 const englishLang = require('./navigation/en')
 const tamilLang = require('./navigation/ta')
+const path = require("path")
 const autometa_options = {
   site: {
     name   : 'drmagesh',
@@ -20,8 +21,8 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', integrity:'sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN', crossorigin:'anonymous'}],
     ['script', { src: "https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js" }],
-    ['script', { src: "https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js" }],
-    ['script', { src: "https://www.googletagmanager.com/gtag/js?id=254496054",async: true}]
+    ['script', { src: "https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js" }],    
+    ['script', { src: "https://www.googletagmanager.com/gtag/js?id=G-3VBPVRTJHY",async: true}]
   ],
   locales: languagesList.list,
   themeConfig: {
@@ -33,6 +34,7 @@ module.exports = {
     }
   },
   plugins: [
+    // require('./plugins/firebase'),
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     ['clean-urls', {
@@ -50,8 +52,15 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        'vue$': 'vue/dist/vue.esm.js'
+        "@assets": path.resolve(__dirname, '../assets')
       }
     }
+  },
+  chainWebpack (config) {
+    config.plugin('injections').tap(([options]) => [
+      Object.assign(options, {
+        'process.env.NODE_ENV': JSON.stringify('development')
+      })
+    ])
   }
 }
